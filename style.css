@@ -1,17 +1,17 @@
-.white{
-    width: 64px;
-    height: 64px;
-    border: 1px black solid;
-}
 .black{
+    background-color: black;
+}
+
+#board td{
     width: 64px;
     height: 64px;
     border: 1px black solid;
-    background-color: black;
 }
 #board{
     position: absolute;
-    left: 30vw;
-    top: 20vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     border-spacing: 0;
+
 }
