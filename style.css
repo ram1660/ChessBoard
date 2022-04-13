@@ -1,0 +1,16 @@
+.white{
+    width: 64px;
+    height: 64px;
+    border: 1px black solid;
+}
+.black{
+    width: 64px;
+    height: 64px;
+    border: 1px black solid;
+    background-color: black;
+}
+#board{
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+}
